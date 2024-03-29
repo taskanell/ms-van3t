@@ -132,6 +132,7 @@ if [ "$mode" = "base" ]; then
 					conda install pytorch==1.8.0 -c pytorch -c conda-forge
 					conda install torchvision -c pytorch -c conda-forge
 					conda install torchaudio -c pytorch -c conda-forge
+     					conda install -c conda-forge libstdcxx-ng
 
 					pip install carla==0.9.12
 					pip install lxml
