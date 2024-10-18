@@ -118,6 +118,7 @@ set(source_files
     model/rsrp-tag.cc
     model/sinr-tag.cc
     model/size-tag.cc
+    model/nr_cni-urbanmicrocell-propagation-loss-model.cc
 )
 
 set(header_files
@@ -247,6 +248,7 @@ set(header_files
     model/rsrp-tag.h
     model/sinr-tag.h
     model/size-tag.h
+    model/nr_cni-urbanmicrocell-propagation-loss-model.h
 )
 
 

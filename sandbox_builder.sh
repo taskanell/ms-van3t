@@ -145,6 +145,13 @@ cp src/automotive/propagation-extended/cni-urbanmicrocell-propagation-loss-model
 cp src/automotive/propagation-extended/cni-urbanmicrocell-propagation-loss-model.h src/propagation/model/
 cp src/automotive/propagation-extended/CMakeLists.txt src/propagation/
 
+cp src/nr/PATCH/nr_cni-urbanmicrocell-propagation-loss-model.h src/nr/model
+cp src/nr/PATCH/nr_cni-urbanmicrocell-propagation-loss-model.cc src/nr/model
+cp src/nr/PATCH/cc-bwp-helper.h src/nr/helper
+cp src/nr/PATCH/CMakeLists.txt src/nr
+cp src/nr/PATCH/nr-helper.cc src/nr/helper
+
+
 echo "Extending Signal Info features..."
 sleep 1
 cp src/automotive/model/SignalInfo/rssi-tag.cc src/wifi/model/
